@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'User center'                           => '会员中心',
+    'User center'                           => '律师中心',
     'Register'                              => '注册',
     'Login'                                 => '登录',
     'Account'                               => '账号',
