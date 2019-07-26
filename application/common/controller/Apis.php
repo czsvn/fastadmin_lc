@@ -193,7 +193,7 @@ class Apis
 //         var_dump(json_encode($queryParameters));
         $sign = strtoupper(md5(json_encode($queryParameters)));
 //         var_dump($sign);
-        //校验数据合法
+        //校验数据合法 验签
         if ($sign !== $signature) {
             $this->error("参数错误", null, 504);
         }
